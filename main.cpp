@@ -26,7 +26,10 @@ public:
 	//Copy Constructor
 	Character(const Character& source) :
 		name{ source.name }, xp{ source.xp }, health{ source.health }, pointer{ source.pointer }{
-
+		/*
+		* Si no tuviese todo esto y solo fuese una copia, sería una Shallow Copy (copia superficial).
+		* Con el cambio de puntero, ya es una Deep Copy (copia profunda).
+		*/
 		Character::copy++;
 		std::ostringstream oss;
 		oss << name << " copy " << Character::copy;
