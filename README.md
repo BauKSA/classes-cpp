@@ -2,6 +2,7 @@
 Bueno... como podrán ver, este es un archivo que ya tenía hecho hace un tiempito, de un curso que hice de C++, y que ahora me decidí a subirlo. Es un solo archivo con casi 250 líneas de código, pero bueno, traté de hacerlo lo más ordenado y comentado posible para que se entiendan algunos temas a la hora de usar clases en C++. Principalmente está el tema de constructores y punteros como atributos.
 Les dejo la lsita de lo que hay en el proyecto que, dicho sea de paso, es un sln de Visual Studio, pero si quieren pueden ver solo el .cpp y ya.
 
+
 ### Default constructor:
 #### El constructor por defecto de la clase. No tiene mucha ciencia.
 ### Overloading constructor:
